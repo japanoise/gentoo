@@ -1,0 +1,471 @@
+app-admin/conky thinkpad mpd -X
+www-client/firefox -wifi -dbus custom-optimization
+net-misc/iputils -caps -filecaps
+x11-terms/rxvt-unicode -vanilla 256-color blink fading-colors -iso14755 -pixbuf secondary-wheel unicode3 wcwidth xft
+net-im/skype -pulseaudio apulse
+app-admin/sudo offensive
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by net-irc/quassel-0.12.2-r3::gentoo[-qt5,-postgres,-monolithic,server]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qt3support-4.8.6-r1 abi_x86_32
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtxmlpatterns-4.8.6-r1::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-util/pkgconfig-0.28-r2 abi_x86_32
+# required by dev-libs/glib-2.46.2-r3::gentoo[xattr]
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=sys-apps/attr-2.4.47-r2 abi_x86_32
+# required by virtual/jpeg-0-r2::gentoo
+# required by media-libs/libmng-2.0.2-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[mng]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=media-libs/libjpeg-turbo-1.5.0 abi_x86_32
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=x11-libs/libXScrnSaver-1.2.2-r1 abi_x86_32
+# required by net-libs/gnutls-3.3.24::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-libs/nettle-3.2 abi_x86_32
+# required by virtual/libffi-3.0.13-r1::gentoo
+# required by dev-libs/glib-2.46.2-r3::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-libs/libffi-3.2.1 abi_x86_32
+# required by net-im/skype-4.3.0.37-r6::gentoo[apulse]
+# required by net-im/skype (argument)
+>=media-sound/apulse-0.1.6-r1 abi_x86_32
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/xf86bigfontproto-1.2.0-r1 abi_x86_32
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/kbproto-1.0.7 abi_x86_32
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/xcb-proto-1.11 abi_x86_32
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[ssl]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-libs/openssl-1.0.2h-r2 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=media-libs/fontconfig-2.11.1-r2 abi_x86_32
+# required by dev-libs/libgcrypt-1.6.5::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-libs/libgpg-error-1.19 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-qt/qtscript-4.8.6-r2:4 abi_x86_32
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXdmcp-1.1.2 abi_x86_32
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/randrproto-1.5.0 abi_x86_32
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-qt/qtxmlpatterns-4.8.6-r1:4 abi_x86_32
+# required by sys-libs/readline-6.3_p8-r2::gentoo
+# required by dev-db/sqlite-3.12.0::gentoo[readline]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo[sqlite]
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtxmlpatterns-4.8.6-r1::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=sys-libs/ncurses-5.9-r99 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXi-1.7.5 abi_x86_32
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[iconv]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-libs/glib-2.46.2-r3 abi_x86_32
+# required by media-libs/gst-plugins-base-0.10.36-r2::gentoo[orc]
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-lang/orc-0.4.25 abi_x86_32
+# required by media-sound/apulse-0.1.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo[apulse]
+# required by net-im/skype (argument)
+>=media-libs/alsa-lib-1.0.29 abi_x86_32
+# required by media-libs/libpng-1.6.21::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=sys-libs/zlib-1.2.8-r1 abi_x86_32
+# required by x11-libs/libXext-1.3.3::gentoo
+# required by x11-libs/libXv-1.0.10::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[xv]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/xextproto-7.3.0 abi_x86_32
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-qt/qtdbus-4.8.6-r1:4 abi_x86_32
+# required by media-libs/libmng-2.0.2-r1::gentoo[lcms]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[mng]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=media-libs/lcms-2.6-r1 abi_x86_32
+# required by dev-libs/libgpg-error-1.19::gentoo[nls]
+# required by dev-libs/libgcrypt-1.6.5::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=virtual/libintl-0-r2 abi_x86_32
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/renderproto-0.11.1-r1 abi_x86_32
+# required by media-libs/lcms-2.6-r1::gentoo[tiff]
+# required by media-libs/libmng-2.0.2-r1::gentoo[lcms]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[mng]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=media-libs/tiff-4.0.6 abi_x86_32
+# required by media-libs/gst-plugins-base-0.10.36-r2::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=media-libs/gstreamer-0.10.36-r2:0.10 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXrandr-1.5.0 abi_x86_32
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXau-1.0.8 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libICE-1.0.9 abi_x86_32
+# required by net-print/cups-2.1.3-r1::gentoo[dbus]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=sys-apps/dbus-1.10.8-r1 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-qt/qtcore-4.8.6-r2:4 abi_x86_32
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libxcb-1.11.1 abi_x86_32
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtxmlpatterns-4.8.6-r1::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-qt/qtsql-4.8.6-r1:4 abi_x86_32
+# required by net-libs/gnutls-3.3.24::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-libs/libtasn1-4.5 abi_x86_32
+# required by media-libs/libmng-2.0.2-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[mng]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=virtual/jpeg-0-r2:0 abi_x86_32
+# required by dev-libs/nettle-3.2::gentoo[gmp]
+# required by net-libs/gnutls-3.3.24::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-libs/gmp-6.0.0a abi_x86_32
+# required by media-libs/fontconfig-2.11.1-r2::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-libs/expat-2.1.1-r2 abi_x86_32
+# required by sys-libs/ncurses-5.9-r5::gentoo[gpm]
+# required by sys-apps/util-linux-2.26.2::gentoo[ncurses]
+# required by x11-libs/libSM-1.2.2-r1::gentoo[uuid]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=sys-libs/gpm-1.20.7-r2 abi_x86_32
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-libs/libxml2-2.9.4 abi_x86_32
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-qt/qtwebkit-4.8.6-r1:4 -exceptions abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXcursor-1.1.14 abi_x86_32
+# required by x11-libs/libXScrnSaver-1.2.2-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=x11-proto/scrnsaverproto-1.2.2-r1 abi_x86_32
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-qt/qtgui-4.8.6-r4:4 abi_x86_32
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/inputproto-2.3.1 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libSM-1.2.2-r1 abi_x86_32
+# required by x11-libs/libXv-1.0.10::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[xv]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/xproto-7.0.28 abi_x86_32
+# required by x11-libs/libXScrnSaver-1.2.2-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=x11-libs/libXext-1.3.3 abi_x86_32
+# required by media-libs/freetype-2.6.3-r1::gentoo[bzip2]
+# required by media-libs/fontconfig-2.11.1-r2::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=app-arch/bzip2-1.0.6-r7 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[xv]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/videoproto-2.3.2 abi_x86_32
+# required by sys-libs/ncurses-5.9-r99::gentoo
+# required by sys-libs/readline-6.3_p8-r2::gentoo
+# required by dev-db/sqlite-3.12.0::gentoo[readline]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo[sqlite]
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtxmlpatterns-4.8.6-r1::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=sys-libs/ncurses-5.9-r5:0 abi_x86_32
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=net-libs/gnutls-3.3.24 abi_x86_32
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=media-libs/gst-plugins-base-0.10.36-r2:0.10 abi_x86_32
+# required by net-libs/gnutls-3.3.24::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=virtual/pkgconfig-0-r1 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=media-libs/freetype-2.6.3-r1 abi_x86_32
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXfixes-5.0.1 abi_x86_32
+# required by dev-libs/glib-2.46.2-r3::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=virtual/libffi-3.0.13-r1 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=net-print/cups-2.1.3-r1 abi_x86_32
+# required by x11-libs/libSM-1.2.2-r1::gentoo[uuid]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=sys-apps/util-linux-2.26.2 abi_x86_32
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-libs/libpthread-stubs-0.3-r1 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=media-libs/libpng-1.6.21 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[mng]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=media-libs/libmng-2.0.2-r1 abi_x86_32
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=dev-db/sqlite-3.12.0 abi_x86_32
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[xv]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXv-1.0.10 abi_x86_32
+# required by dev-db/sqlite-3.12.0::gentoo[readline]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo[sqlite]
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[qt3support]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtxmlpatterns-4.8.6-r1::gentoo
+# required by dev-qt/qtwebkit-4.8.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/skype (argument)
+>=sys-libs/readline-6.3_p8-r2 abi_x86_32
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libXrender-0.9.9 abi_x86_32
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by dev-qt/qtgui-4.8.6-r4::gentoo[cups]
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=dev-libs/libgcrypt-1.6.5 abi_x86_32
+# required by x11-libs/libXfixes-5.0.1::gentoo
+# required by x11-libs/libXi-1.7.5::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-libs/libX11-1.6.3 abi_x86_32
+# required by x11-libs/libXfixes-5.0.1::gentoo
+# required by x11-libs/libXi-1.7.5::gentoo
+# required by dev-qt/qtgui-4.8.6-r4::gentoo
+# required by dev-qt/qtcore-4.8.6-r2::gentoo[qt3support]
+# required by dev-qt/qtsql-4.8.6-r1::gentoo
+# required by dev-qt/qt3support-4.8.6-r1::gentoo
+>=x11-proto/fixesproto-5.0-r1 abi_x86_32
+x11-base/xorg-server xephyr kdrive
+# required by games-board/pysolfc-2.0-r3::gentoo[-minimal]
+# required by games-board/pysolfc (argument)
+>=dev-python/pillow-3.1.1 tk
+# required by games-board/pysolfc-2.0-r3::gentoo
+# required by games-board/pysolfc (argument)
+>=dev-lang/python-2.7.10-r1:2.7 tk
+# required by dev-python/pillow-3.1.1::gentoo[python_targets_python3_4]
+# required by games-board/pysolfc-2.0-r3::gentoo[-minimal]
+# required by games-board/pysolfc (argument)
+>=dev-lang/python-3.4.3-r1 tk
+x11-wm/dwm savedconfig xinerama

@@ -1,0 +1,19 @@
+www-client/firefox
+# required by app-vim/sudoedit (argument)
+=app-vim/sudoedit-0.21 ~amd64
+# required by dev-lang/rakudo-2016.06::gentoo
+# required by rakudo (argument)
+=dev-lang/nqp-2016.06 ~amd64
+# required by dev-lang/nqp-2016.06::gentoo[moar]
+# required by dev-lang/rakudo-2016.06::gentoo
+# required by rakudo (argument)
+=dev-lang/moarvm-2016.06 ~amd64
+# required by rakudo (argument)
+=dev-lang/rakudo-2016.06 ~amd64
+# required by net-im/skype (argument)
+=net-im/skype-4.3.0.37-r6 ~amd64
+# required by plan9port (argument)
+=dev-util/plan9port-20140306-r2 ~amd64
+# required by www-client/palemoon-bin (argument)
+=www-client/palemoon-bin-26.3.3 ~amd64
+=www-client/palemoon-26.3.3 ~amd64
