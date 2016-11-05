@@ -27,7 +27,3 @@ history which will make a nice blogpost some day ;)
 Her hardware is stock for an x200; HDD, OK-ish ram, Intel graphics. She is 
 almost always connected to the internet by wireless card, which is configured 
 using wpa_supplicant. She has a couple of Perl stickers on her case.
-
-### anubis
-I also have Gentoo installed on a VirtualBox VM at work. This one isn't really
-one I use; it just demonstrates kernelconfig booting gentoo + x11 + internet.
